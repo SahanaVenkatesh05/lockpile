@@ -1,0 +1,45 @@
+.free
+{
+  background-color:#00b300;
+  text-align: center;
+  border: 2px solid pink;
+  border-radius: 1em ;
+  width:100%;
+  
+  font-family:Lato; 
+  transition: transform .5s ease;
+  box-shadow: 0 8px 6px -6px black;
+  position: relative;
+}
+
+.grid-item:hover
+{
+  transform: scale(0.9);
+}
+
+
+.free p{
+    font-size: 1.3em;
+    font-family: Lato;
+    font-weight: bold;
+    margin-top: 4em;
+   
+}
+
+@media only screen and (device-aspect-ratio: 40/71)
+{
+.free
+  {
+    height:75%;
+  }
+} 
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+{
+    free
+    {
+      height:75%;
+    }
+  } 

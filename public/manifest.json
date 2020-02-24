@@ -1,0 +1,25 @@
+{
+  "short_name": "LockPile",
+  "name": "Keeping it safe!",
+  "icons": [
+    {
+      "src": "lockerLogo.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "lockerLogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "lockerLogo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url":"https://lockpile-e62b3.firebaseapp.com",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

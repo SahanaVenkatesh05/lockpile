@@ -1,0 +1,10 @@
+{
+    "apptitle":"LockPile",
+    "freeLockersAPI":"http://localhost:3000/freelockers",
+    "bookedLockersAPI":"http://localhost:3000/bookedlockers",
+    "lockerstatusAPI":"http://localhost:3000/lockerstatus",
+    "openLockerAPI":"http://localhost:3000/open/",
+    "releaselockerAPI":"http://localhost:3000/release/",
+    "booklockerAPI":"http://localhost:3000/booklocker"
+
+}

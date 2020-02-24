@@ -1,0 +1,71 @@
+.myapp
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40em;
+    height: 20em;
+    margin: auto;
+   
+}
+
+#welcome
+{
+    font-family: Lato;
+    font-size: 1.5em;
+}
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ #welcome
+    {
+        font-family: Lato;
+        font-size: 1.5em;
+    }
+    .myapp
+    {
+       
+       
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40em;
+    height: 10em;
+    margin: auto;
+    }
+}
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)
+{ #welcome
+    {
+        font-family: Lato;
+        font-size: 1.5em;
+    }
+    .myapp
+    {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 40em;
+    height: 10em;
+    margin: auto;
+    }
+}
+
+.jumbotron {
+    position:relative;
+    z-index: 4;
+    box-shadow: 0 8px 16px -6px black;
+  }

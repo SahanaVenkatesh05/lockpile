@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="manifest" href="manifest.json">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>LockerCard</title>
+   
+  </head>
+  <body>
+   
+    <div  id="root"></div>
+   
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyB--IC5TzNPzHrDUIZNW5-VAaTuvggdSuc",
+        authDomain: "lockpile-e62b3.firebaseapp.com",
+        databaseURL: "https://lockpile-e62b3.firebaseio.com",
+        projectId: "lockpile-e62b3",
+        storageBucket: "lockpile-e62b3.appspot.com",
+        messagingSenderId: "730875590199",
+        appId: "1:730875590199:web:0c7351fbff9e1aa1adb1b2",
+        measurementId: "G-7VFE0RPN7S"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </body> 
+</html>

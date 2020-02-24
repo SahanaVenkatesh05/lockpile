@@ -1,0 +1,78 @@
+.mapcontainer
+{
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 4em;
+    height: 60%;
+   
+}
+
+
+/* #desc{
+height: 8em;
+width:10em;
+word-wrap: break-word;
+margin-left: 2em;
+} */
+
+#desc
+{
+    font-family: Lato;
+    font-size: 1em;
+}
+ h5{
+    color: blue;
+    padding-top: 1em;
+    font-family: Lato;
+    font-weight: bold;
+    
+}
+ #book
+{
+    display: block;
+    float: right; 
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.lockerImage
+{
+    height: 265px;
+    max-width: 50%;
+    background-repeat: no-repeat;
+    margin: 1em;
+    float: left;
+    overflow: hidden;
+   
+}
+image{
+    width: 100%;
+    object-fit: contain;
+}
+#book:disabled
+{
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+#availability
+{
+    font-weight: bold;
+    font-family: Lato;
+    font-size: 1.2em;
+    padding : 0;
+    margin : 0;
+    line-height : 20px;
+    color: darkgreen  
+}
+
+#small-text
+{
+    font-family: Lato;
+    padding : 0;
+    margin : 0;
+    line-height : 20px;
+    color: grey;
+}

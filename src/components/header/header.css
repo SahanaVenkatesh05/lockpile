@@ -1,0 +1,77 @@
+#title{
+ height: 10%;
+ color: white;
+ font-family: Lato;
+ font-size: 2.5em;
+ text-align: center;
+ font-weight: bold;
+ padding-right: 0.8em;
+ letter-spacing: 0.5em;
+}
+
+.hamburger-menu
+{
+    
+    width:2.5em ;
+    float: left;
+    margin-left: 1em;
+}
+
+.hamburger-menu span{
+    background: white;
+    width: 2.5rem;
+    height: 0.25rem;
+    display: block;
+    margin-top: 0.8rem;
+   
+}
+
+.btn-info
+{
+    padding: 0.5em; 
+    margin-top: 1em;
+}
+
+@media only screen and (device-aspect-ratio: 40/71)
+{
+  
+  .btn-info
+{
+    padding: 0.5em;
+
+    margin-top: 1em;
+}
+
+.hamburger-menu
+{
+
+    margin-left: 1em;
+}
+} 
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+   
+  .btn-info
+{
+    padding: 0.5em;
+    margin-top: 1em;
+  
+}
+.hamburger-menu
+{
+    
+   
+    margin-left: 1em;
+}
+ }
+
+ #Name
+{
+    float: left;
+    margin-left: 1em;
+} 
+
+   
+
