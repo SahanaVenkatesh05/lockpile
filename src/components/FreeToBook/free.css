@@ -43,3 +43,38 @@ and (max-device-width : 667px)
       height:75%;
     }
   } 
+
+  @media only screen and (min-width: 393px) and (max-width: 767px) { .free
+    {
+      height:75%;
+    }  }
+
+  
+    @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3)
+{
+   .free
+  {
+    height: 75%;
+  }
+}
+/*iPhone plus*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+{
+  .free
+  {
+    height: 75%;
+  }
+}
+
+/* iPad media query */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+{
+  .free
+  {
+    height: 75%;
+  }
+}

@@ -4,6 +4,9 @@ import CardGrid from '../cardgrid/cardgrid';
 import MapComponent from '../map/mapcomponent';
 import Header from '../header/header';
 import App from '../../App';
+import Version from '../../version/version';
+import FreeToBook from '../FreeToBook/free';
+import './home.css'
 
 
 export default class Home extends React.Component 
@@ -18,6 +21,7 @@ export default class Home extends React.Component
       userName:this.props.location.state.loggedinuser,
       userid:this.props.location.state.userId
     };
+    
   }
   componentDidMount()
   {
@@ -42,9 +46,11 @@ export default class Home extends React.Component
       <div>
         <div className="home">
           <Header history= {this.props.history} name={this.state.userName} userId={this.state.userid} />
-          <MapComponent history= {this.props.history} />
-          <CardGrid /> 
+          <MapComponent history= {this.props.history}  />
+          <CardGrid />
+          <Version />
         </div> 
+       
       </div>
   );
     }

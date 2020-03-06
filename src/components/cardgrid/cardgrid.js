@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import LockerCard from '../lockerCard/lockerCard'
 import FreeToBook from '../FreeToBook/free';
 import axios from 'axios';
+import Version from '../../version/version';
 
 export default class CardGrid extends React.Component {
   constructor(props) {
@@ -33,6 +34,7 @@ export default class CardGrid extends React.Component {
     fetch(url).then(response => response.json())
     .then(response => {
       this.setState({asset:response})     
+     
     });
   }
 
@@ -132,5 +134,8 @@ export default class CardGrid extends React.Component {
      <FreeToBook />
     </div>
     );
+   
+    
   }
+ 
 }

@@ -47,6 +47,7 @@ export default class Header extends React.Component {
 
   logout=(e) => 
   {
+    console.log("inside logout")
     e.preventDefault();
     var auth2 = window.gapi.auth2.getAuthInstance();
     auth2.signOut().then(function () {
@@ -60,19 +61,29 @@ render()
   return (<p>Loading data</p>)
   if(this.state.sidebarOpen)
   return(
+
     <div className="sidebar"> 
     <Sidebar 
       sidebar=
       {
       <div>
-      <div id="Name"><h5>{this.props.name}</h5></div>
+      <div id="name">{this.props.name}</div>
+      <br></br>
+      <a href="#" className="anchors">About</a>
+      
+      <br></br>
+      <br></br>
+      
+      <a href="#" className="anchors">Payment History</a>
+      <br></br>
         <button type="button" className="btn btn-info" id="logoutButton"  onClick={(e) => this.logout(e)}>Logout</button> 
       </div>
       }
       open={this.state.sidebarOpen}
       onSetOpen={this.onSetSidebarOpen}
       styles={
-        { sidebar: { background: "#f2e6ff", width:"40%",height:"100%" } }}
+        { sidebar: { background: "#f2e6ff", width:"25%",height:"100%" }
+       }}
     >
     </Sidebar>
     </div>);

@@ -3,9 +3,9 @@
   "name": "Keeping it safe!",
   "icons": [
     {
-      "src": "lockerLogo.png",
+      "src": "favicon.ico",
       "sizes": "144x144",
-      "type": "image/png"
+      "type": "image/ico"
     },
     {
       "src": "lockerLogo.png",

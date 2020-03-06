@@ -1,0 +1,54 @@
+.vnumber
+{
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    margin-top: 60em;
+    text-align: center;
+    color: burlywood
+}
+
+@media only screen and (device-aspect-ratio: 40/71)
+{
+ .vnumber{
+     margin-top: 105em;
+ }
+} 
+
+  
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+{
+    .vnumber{
+        margin-top: 105em;
+    }
+}
+
+
+/* iPhone plus media query */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+{
+    .vnumber{
+        margin-top: 105em;
+    }
+}
+
+/* iPad media query */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+{
+    .vnumber{
+        margin-top: 105em;
+    }
+}
+
+/* samsung galaxy media query */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3)
+{
+    .vnumber{
+        margin-top: 105em;
+    }
+}
