@@ -47,22 +47,22 @@ export default class App extends React.Component {
 
   componentDidMount() 
   {
-  //   window.gapi.load('auth2', () => {
-  //   window.gapi.auth2.init({
-  //   client_id: '463973580328-nsu48d5p0p55513npcvgukdnpi9plg5h.apps.googleusercontent.com',
-  //   scope: 'profile'
-  //   }).then(() => {
-  //     gapi.signin2.render('loginButton', {
-  //       'width': 200,
-  //       'height': 50,
-  //       'longtitle': true,
-  //       'theme': 'dark',
-  //       'onsuccess': this.onSuccess
-  //     });  
-  //   })
+     window.gapi.load('auth2', () => {
+     window.gapi.auth2.init({
+     client_id: '463973580328-nsu48d5p0p55513npcvgukdnpi9plg5h.apps.googleusercontent.com',
+     scope: 'profile'
+     }).then(() => {
+       gapi.signin2.render('loginButton', {
+         'width': 200,
+         'height': 50,
+         'longtitle': true,
+         'theme': 'dark',
+         'onsuccess': this.onSuccess
+    });  
+     })
     
-  // })
-  this.props.history.push({pathname:"/home" ,state: {loginstatus: true,loggedinuser:"Welcome"}}); 
+   })
+  //this.props.history.push({pathname:"/home" ,state: {loginstatus: true,loggedinuser:"Welcome"}}); 
   }
 
   render() 

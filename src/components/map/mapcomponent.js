@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Map, GoogleApiWrapper, Marker,InfoWindow} from 'google-maps-react';
+import { Map, GoogleApiWrapper, Marker} from 'google-maps-react';
 import InfoWindowEx from './InfoWindowEx';
 import './mapcomponent.css';
 import axios from 'axios';

@@ -1,0 +1,13 @@
+[debug] [2020-03-09T05:16:06.770Z] ----------------------------------------------------------------------
+[debug] [2020-03-09T05:16:06.771Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2020-03-09T05:16:06.771Z] CLI Version:   7.14.0
+[debug] [2020-03-09T05:16:06.771Z] Platform:      linux
+[debug] [2020-03-09T05:16:06.771Z] Node Version:  v13.0.1
+[debug] [2020-03-09T05:16:06.772Z] Time:          Mon Mar 09 2020 10:46:06 GMT+0530 (India Standard Time)
+[debug] [2020-03-09T05:16:06.772Z] ----------------------------------------------------------------------
+[debug] [2020-03-09T05:16:06.772Z] 
+[debug] [2020-03-09T05:16:06.777Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-09T05:16:06.777Z] > authorizing via signed-in user
+[debug] [2020-03-09T05:16:06.777Z] [iam] checking project lockpile-e62b3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-03-09T05:16:06.779Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/lockpile-e62b3:testIamPermissions  
+
